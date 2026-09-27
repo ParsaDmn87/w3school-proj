@@ -1,0 +1,426 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: 0;
+ }
+
+ body {
+     font-family: sans-serif;
+ }
+ main {
+     width: 70%;
+     margin: auto;
+     margin-top: 100px;
+ }
+ nav a {
+     flex: 25%;
+     display: block;
+     text-decoration: none;
+     text-align: center;
+     color: black;
+     padding: 10px;
+     font-size: large;
+ }
+
+ nav {
+     display: flex;
+     background-color: rgb(248, 244, 244);
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     z-index: 1000;
+    
+ }
+
+ nav a:hover {
+     background-color: lightgray;
+ }
+
+ #banner {
+     background-image: url(images/coffee\ \(1\).jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 70vh;
+     position: relative;
+     margin-top: 20px;
+     background-position: center;
+ }
+
+ #h1p p {
+     text-align: left;
+     padding-left: 0;
+ }
+
+ section h1 {
+
+     margin-top: 40px;
+
+
+ }
+
+ 
+
+
+ #ipsum {
+     position: absolute;
+     left: 20px;
+     top: 20px;
+     background-color: white;
+     padding: 10px;
+     width: 130px;
+
+
+ }
+
+ #banner p {
+     text-align: center;
+     padding: 10px;
+ }
+
+ #buttons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #616161;
+     position: relative;
+     padding: 15px;
+ }
+
+ #buttons button {
+     width: 5px 5px;
+     padding: 7px;
+     margin: 3px;
+     background-color: #616161;
+     border: 1px solid white;
+ }
+
+ #buttons #fisrbutton {
+     background-color: #f2f2f2;
+ }
+
+
+
+ #buttons i:hover {
+     color: #009688;
+ }
+
+ #left {
+     position: absolute;
+     left: 10px;
+     font-size: x-large;
+ }
+
+ #left i {
+     color: white;
+ }
+
+ #right {
+     position: absolute;
+     right: 10px;
+     font-size: x-large;
+
+
+ }
+
+ #right i {
+     color: white;
+
+ }
+
+ #offer {
+     text-align: center;
+     margin-top: 80px;
+     padding-bottom: 20px;
+ }
+
+ #offer::after {
+     content: "";
+     display: block;
+     width: 200px;
+     height: 5px;
+     background-color: #616161;
+     margin: 15px auto 0;
+ }
+
+ #cartinfo {
+     display: flex;
+     margin: 40px 0px 60px 0px;
+ }
+
+ #designcard {
+     background-color: #f1f1f1;
+ }
+
+ #brandingcard {
+     background-color: #a4a2a2;
+ }
+
+ #Consultationcard {
+     background-color: #616161;
+     color: #f2f2f2;
+ }
+
+ #Promisescard {
+     background-color: #060606;
+     color: white;
+ }
+
+ #cartinfo h3,
+ p {
+     padding: 15px;
+ }
+
+ #cartinfo p {
+     padding-bottom: 30px;
+     padding-top: 0;
+ }
+
+ #pricing {
+     text-align: center;
+     margin-bottom: 40px;
+ }
+
+ #box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px auto;
+     width: 100%;
+
+ }
+
+ #box section {
+     flex: 33.33%;
+     text-align: center;
+     border: 1px solid #c2c0c0;
+     margin: 10px ;
+
+ }
+
+ #box section:hover {
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+ }
+
+ #bcolor {
+     background-color: #000;
+     color: white;
+ }
+
+ #procolor {
+     background-color: #8c8a8a;
+     color: white;
+ }
+
+ #pcolor {
+     background-color: #000;
+     color: white;
+ }
+
+ #box p {
+     padding: 15px;
+     border-bottom: 1px solid #c2c0c0;
+
+ }
+
+ #box h3 {
+     padding: 30px;
+     border-bottom: 1px solid #959393;
+ }
+
+ #box div {
+     background-color: #f1f1f1;
+     padding: 25px;
+ }
+
+ #box button {
+     width: 100px;
+     padding: 15px;
+     background-color: #4caf50;
+     color: white;
+     cursor: pointer;
+     border: none;
+ }
+ #box button:hover{
+    background-color: #c2c0c0;
+    color: #000;
+ }
+ #box h3,div{
+    margin: 0;
+ }
+ #box span{
+    font-weight: bold;
+ }
+ .month{
+    color: #959393;
+   font-weight: normal;
+   font-size: small;
+  
+   
+ }
+ .price{
+    font-size: xx-large;
+ }
+ #who {
+     text-align: center;
+     margin-top: 50px;
+     padding-bottom: 20px;
+ }
+ #who::after{
+    content: "";
+     display: block;
+     width: 150px;
+     height: 5px;
+     background-color: #616161;
+     margin: 15px auto 0;}
+ #peopels {
+     display: flex;
+     margin-top: 40px;
+     gap: 15px;
+ }
+
+ #peopels section {
+     flex: 33.33%;
+     box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.15);
+
+ }
+
+ #peopels img {
+     width: 100%;
+ }
+
+ #peopels a {
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     width: 90%;
+     background-color: #f1f1f1;
+     margin: 15px auto;
+     padding: 10px;
+     color: #000;
+ }
+
+ #person a:hover {
+     background-color: #959393;
+ }
+
+ #person h3,
+ h6,
+ p {
+     padding: 12px;
+     margin: 0;
+ }
+
+ #person h6 {
+     color: #7c7b7b;
+ }
+
+ #contactus {
+     text-align: center;
+     margin-top: 80px;
+     padding-bottom: 20px ;
+ }
+ #contactus::after{
+      content: "";
+     display: block;
+     width: 140px;
+     height: 5px;
+     background-color: #616161;
+     margin: 15px auto 0;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ input {
+     padding: 12px;
+     margin-bottom: 20px;
+     border: 1px solid #c2c0c0;
+ }
+
+ input:hover {
+     border: 1px solid #000;
+ }
+
+ form button {
+     padding: 15px;
+     background-color: #000;
+     color: #f2f2f2;
+     border: none;
+ }
+
+ form button:hover {
+     background-color: #c2c0c0;
+     color: #000;
+ }
+
+ footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #f1f1f1;
+     margin-top: 50px;
+ }
+
+ #gotop {
+     display: block;
+     width: 120px;
+     background-color: #000;
+     padding: 10px;
+     margin-top: 15px;
+
+ }
+ footer #foot{
+    font-size: large;
+    margin-top: 30px;
+ }
+ #gotop:hover {
+     background-color: #c2c0c0;
+
+ }
+
+ #gotop a {
+     color: #f2f2f2;
+     text-decoration: none;
+
+ }
+
+ #gotop a:hover {
+     color: #000;
+ }
+
+ #gotop i {
+     margin: 2px;
+     font-size: small;
+ }
+
+ #socialapp {
+     margin: 30px auto;
+ }
+
+ #socialapp a {
+     font-size: x-large;
+     color: #000;
+     
+
+ }
+
+ #socialapp a:hover {
+     opacity: .6;
+ }
+
+ #w3css {
+     text-decoration: underline;
+ }
+
+ #w3css:hover {
+     color: green;
+     cursor: pointer;
+ }
+ #powerdby{
+    margin-bottom: 40px;
+ }
